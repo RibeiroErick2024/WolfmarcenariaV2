@@ -1,12 +1,14 @@
 
 import React from "react";
-import Home from "./pages/Home";  // Importando o componente Home
+import Home from "./pages/Home";
+import Header from "./components/header/Header"
 
 function App() {
   return (
     <div>
-      <h1>Bem-vindo à Wolfmarcenaria!</h1>
-      <Home /> {/* Exibindo o componente Home */}
+      <Header/>
+     {/*  <h1>Bem-vindo à Wolfmarcenaria!</h1>
+       <Home /> */} 
     </div>
   );
 }
