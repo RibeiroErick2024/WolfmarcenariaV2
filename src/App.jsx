@@ -1,14 +1,24 @@
 
 import React from "react";
-import Home from "./pages/Home";
 import Header from "./components/header/Header"
+import Description from "./components/description/Description";
+import Home from "./components/home/Home"
+import Projects from "./components/projects/Projects";
+import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact";
+
 
 function App() {
   return (
     <div>
-      <Header/>
-     {/*  <h1>Bem-vindo à Wolfmarcenaria!</h1>
-       <Home /> */} 
+      
+    
+      <Home />
+     <Description />
+     <Projects />
+     <Contact />
+     <Footer />
+       
     </div>
   );
 }
